@@ -1,0 +1,68 @@
+/* Hero Section */
+
+@media (max-width: 1100px) {
+    .work-content p{
+        font-size: 24px;
+    }
+    .work-content .h1{
+        font-size: 4rem;
+        letter-spacing: 1px;
+        line-height: 64px;
+    }
+}
+
+@media (max-width: 800px) {
+    .work-content .h1{
+        font-size: 2.5rem;
+    }
+    .work-content p{
+        width: 100%;
+    }
+}
+
+/* Work Image Section */
+
+@media (max-width: 1100px) {
+    .work-image-container2 .work-image-card {
+        height: 562.5px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .work-image-section{
+        margin-top: 40px;
+    }
+    .work-image-container1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-image-container1 .work-image-card {
+        max-width: 100%;
+    }
+    .work-image-container2 .work-image-card {
+        height: auto;
+    }
+    .work-image-container3 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 0;
+    }
+
+    .work-image-container3 .work-image-card {
+        max-width: 100%;
+    }
+    .work-image-container4 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-image-container4 .work-image-card {
+        max-width: 100%;
+    }
+    
+}
