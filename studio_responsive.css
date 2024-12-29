@@ -1,0 +1,103 @@
+@media (max-width: 1100px) {
+    .container{
+        padding: 0 40px 0;
+    }
+    .studio .studio-content{
+        gap: 80px;
+    }
+    .studio-content .studio-first h1{
+        font-size: 4rem;
+    }
+    .studio-content .studio-first p{
+        font-size: 24px;
+        font-weight: 400;
+        width: 68%;
+    }
+    .studio-content .studio-third p{
+        font-size: 22px;
+    }
+    .studio-content .studio-forth{
+        gap: 80px;
+    }
+    .studio-content .studio-forth .studio-forth-first h3 {
+        font-size: 32px;
+    }
+    .studio-content .studio-forth .studio-forth-first ul li{
+        font-size: 22px;
+    }
+    .studio-content .studio-forth .studio-forth-second h3 {
+        font-size: 32px;
+    }
+    .studio-content .studio-forth .studio-forth-second ul li{
+        font-size: 22px;
+    }
+    .studio-content .studio-fifth{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .studio-content .studio-fifth .svg{
+        display: none;
+    }
+    .studio-content .studio-fifth .svg2{
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+    .studio-content .studio-sixth p{
+        font-size: 32px;
+    }
+    .footer-content{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container{
+        padding: 0 20px 0;
+    }
+    .studio .studio-content{
+        gap: 80px;
+    }
+    .studio-content .studio-first h1{
+        font-size: 2.5rem;
+        line-height: 1em;
+        margin-top: 40px;
+    }
+    .studio-content .studio-first p{
+        width: 100%;
+    }
+    .studio-second img{
+        height: 250px;
+    }
+    /* .studio .studio-content .studio-forth{
+        gap: 80px;
+    } */
+    .studio-content .studio-forth .studio-forth-first{
+        gap: 24px;
+        flex-direction: column;
+    }
+    .studio-content .studio-forth .studio-forth-first h3 {
+        font-size: 32px;
+    }
+    
+    .studio-content .studio-forth .studio-forth-first ul{
+        margin-left: 20px;
+    }
+    .studio-content .studio-forth .studio-forth-second{
+        gap: 24px;
+        flex-direction: column;
+    }
+    .studio-content .studio-forth .studio-forth-second .first-h3{
+        display: none;
+    }
+    .studio-content .studio-forth .studio-forth-second h3 {
+        font-size: 32px;
+    }
+    
+    .studio-content .studio-forth .studio-forth-second ul{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,141 @@
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding: 0 25px 0; */
+    padding: 0 80px 0;
+}
+
+.studio .studio-content{
+    display: flex;
+    gap: 140px;
+    flex-direction: column;
+}
+
+.studio-first{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.studio-content .studio-first h1{
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 95px;
+    margin-top: 125px;
+}
+
+.studio-content .studio-first p{
+    font-size: 32px;
+    font-weight: 400;
+    width: 68%;
+}
+
+.studio-second img{
+    width: 100%;
+    max-width: 100%;
+    height: 470px;
+    border-radius: 24px;
+}
+
+.studio-content .studio-third p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+    width: 100%;
+    max-width: 100%;
+}
+
+.studio-content .studio-third p .studio-p-light{
+    color: #808080;
+}
+
+.studio-content .studio-forth{
+    display: flex;
+    gap: 140px;
+    flex-direction: column;
+}
+
+.studio-content .studio-forth .studio-forth-first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.studio-content .studio-forth .studio-forth-first h3 {
+    font-size: 56px;
+    font-weight: 500;
+    flex: 1 0 0px;
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.studio-content .studio-forth .studio-forth-first ul{
+    flex: 1 0 0px;
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.studio-content .studio-forth .studio-forth-first ul li{
+    list-style: disc;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.studio-content .studio-forth .studio-forth-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.studio-content .studio-forth .studio-forth-second h3 {
+    font-size: 56px;
+    font-weight: 500;
+    flex: 1 0 0px;
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.studio-content .studio-forth .studio-forth-second ul{
+    flex: 1 0 0px;
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.studio-content .studio-forth .studio-forth-second ul li{
+    list-style: disc;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.studio-content .studio-fifth{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.studio-content .studio-fifth img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.studio-content .studio-sixth p{
+    font-size: 3.75rem;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: -1px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.studio-content .studio-sixth p .studio-p-light{
+    color: #808080;
+}
+
+.footer-content{
+    margin-top: 140px;
+}
