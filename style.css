@@ -9,6 +9,11 @@
     color: #fff;
     font-family: 'DM Sans', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #000000;
 }

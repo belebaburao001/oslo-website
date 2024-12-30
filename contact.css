@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 80px 0;
+}
+
+.contact .contact-content{
+    display: flex;
+    gap: 140px;
+    flex-direction: column;
+}
+
+.contact-first{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-content .contact-first h1{
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 95px;
+    margin-top: 125px;
+}
+
+.contact-content .contact-first p{
+    font-size: 32px;
+    font-weight: 400;
+    width: 66%;
+}
+
+.contact-content .contact-second{
+    display: flex;
+    gap: 50px;
+}
+
+.contact-second .contact-second-first{
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    gap: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 65%;
+    padding: 0 150px 0 0;
+}
+
+.contact-second .contact-second-first p{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.contact-second .contact-second-first .contact-social{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contact-second .contact-second-first .contact-social a{
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-second  .contact-second-second .second-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.second-sections p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+.second-sections .contact-p-light{
+    color: #808080;
+}

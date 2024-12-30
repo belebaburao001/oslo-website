@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .work .work-content{
     display: flex;
     gap: 16px;
